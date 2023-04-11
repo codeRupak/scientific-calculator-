@@ -51,17 +51,17 @@ document.addEventListener('DOMContentLoaded', function() {
              
           }
 
-          if (value == "AC"){
-          currentValue = "";
-          display.value=currentValue;     
-          } else if(value == "=") {
-            evaluateResult();
-          }         
-          else {          
-        currentValue += value;
-        // console.log('currentValue:', currentValue);
-        display.value = currentValue;
-          }
+        //   if (value == "AC"){
+        //   currentValue = "";
+        //   display.value=currentValue;     
+        //   } else if(value == "=") {
+        //     evaluateResult();
+        //   }         
+        //   else {          
+        // currentValue += value;
+        // // console.log('currentValue:', currentValue);
+        // display.value = currentValue;
+        //   }
     })
 }
 });
