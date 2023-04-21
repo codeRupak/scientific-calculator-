@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function evaluateResult(){
       console.log('currentValue:', currentValue)
       const convertedValue = currentValue
+      // .replace("Fx","")
       .replace("×","*")
       .replace("÷","/")
       .replace("%",'*0.1')
@@ -65,3 +66,4 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 }
 });
+
