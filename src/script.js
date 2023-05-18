@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const button = buttons[i]
         button.addEventListener('click', function() {
           console.log('button clicked:', button.innerText);
-          const value = button.innerText;
+          const value = button.innerText.replace("Fx","");
 
           try {
             if (value == "AC"){
